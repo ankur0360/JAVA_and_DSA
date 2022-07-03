@@ -5,7 +5,7 @@
                                                        
       javac filename.java
    * -> NOTE - File name and class name should be same
-   For run a java file 
+      For run a java file 
                                                        
-      java filename
+         java filename
   
