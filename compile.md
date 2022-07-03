@@ -4,8 +4,11 @@
    For compile a java file 
                                                        
       javac filename.java
-   * -> NOTE - File name and class name should be same "\n"
-      For run a java file 
+   * -> NOTE - File name and class name should be same
+
+
+
+For run a java file 
                                                        
          java filename
   
