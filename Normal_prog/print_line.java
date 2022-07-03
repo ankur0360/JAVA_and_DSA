@@ -1,4 +1,4 @@
-import static java.lang.System.out;           // no required to write System in printf
+import static java.lang.System.out;           // no required to write System in printf/println
 import java.util.*;
 public class A
 {
