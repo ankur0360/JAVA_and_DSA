@@ -13,8 +13,8 @@ class Child extends Parent  // here 'Child' class extends his 'Parent' property
 	}
 	void call()
 	{
-		this.hello();  // 'this' keyword is use for to call its own class member
-		super.hello(); // 'super' keyword is use for to call its Parent class member
+		this.hello();  // 'this' keyword is use for call its own class member
+		super.hello(); // 'super' keyword is use for call its Parent class member
 	}
 }
 class Main
