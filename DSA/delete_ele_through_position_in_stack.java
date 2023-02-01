@@ -92,7 +92,7 @@ class Test
         }
     }
 }
-class Main
+class delete_ele_through_position_in_stack
 {
     public static void main(String[] args) {
         Test t = new Test();
