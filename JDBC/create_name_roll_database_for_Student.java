@@ -7,7 +7,7 @@ class JDBC
     Scanner scn = new Scanner(System.in);
     void exec() throws SQLException
     {
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ankur","root","25092003");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ankur","root","1234"); // database is "ankur" ,user name is "root" and password is "1234"
         PreparedStatement ps = con.prepareStatement("insert into lab values(?,?)");
         {
             System.out.print("Enter number of row : ");
@@ -54,7 +54,7 @@ class Dlt
     }
     void Dl() throws SQLException
     {
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ankur", "root","25092003");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ankur", "root","1234");
         PreparedStatement ps = con.prepareStatement("delete from lab");
         ps.executeUpdate();
         System.out.println("Successfully deleted all rows.");
@@ -63,7 +63,7 @@ class Dlt
     }
     void Another() throws SQLException
     {
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ankur", "root","25092003");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ankur", "root","1234");
         PreparedStatement ps = con.prepareStatement("delete from lab where sName = ?");
         scn.nextLine();
         System.out.print("Enter the name of student which you want to delete : ");
@@ -77,7 +77,7 @@ class Show
 {
     void View() throws SQLException
     {
-        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ankur","root","25092003"); 
+        Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ankur","root","1234"); 
         Statement stmt=con.createStatement();  
         ResultSet rs=stmt.executeQuery("select * from lab");  
         while(rs.next())  
