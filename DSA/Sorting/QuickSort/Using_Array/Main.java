@@ -14,7 +14,6 @@ class Main
                 int t1 = arr[i];
                 arr[i] = arr[j];
                 arr[j] = t1;
-
             }   
         }
         int t2 = arr[i + 1];
