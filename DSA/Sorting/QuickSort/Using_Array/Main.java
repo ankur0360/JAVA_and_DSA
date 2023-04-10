@@ -35,7 +35,7 @@ class Main
     {
         Main m = new Main();
         int[] arr = {2,5,6,1,3,20};
-        int l = 0,h = arr.length;
+        int h = arr.length;
         System.out.println("Before Sorting : " + Arrays.toString(arr));
         m.quickSort(arr, 0, h - 1);
         System.out.println("After Sorting : " + Arrays.toString(arr));
